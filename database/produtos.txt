@@ -1,0 +1,6 @@
+{"uuid":"7e0526c8-4f70-4c84-ad11-4ccb81d942a4","name":"Placa-mãe","type":"Hardware","price":"599.90","description":"Uma placa-mãe parruda"}
+{"uuid":"ad0091f2-e742-4400-8360-58a3d2f2240a","name":"Processador","type":"Hardware","price":"499.90","description":"Um processador fodão"}
+{"uuid":"39662c9f-cf4b-4c3a-b931-bbc95320f728","name":"Monitor 25 Polegadas","type":"Monitor","price":"1500.00","description":"Monitor grandão bom pra caramba"}
+{"uuid":"ae787a67-d1ab-4f63-a084-21efe0ce9cf5","name":"Monitor 21 Polegadas","type":"Monitor","price":"1200.00","description":"Monitor grande bom pra caramba"}
+{"uuid":"c134cd40-c1ad-4bc8-ab5c-6689348022c5","name":"Teclado Comum","type":"Periférico","price":"50.00","description":"Tecladinho meia boca"}
+{"uuid":"0d957015-0715-4baf-888d-54234ab83713","name":"Mouse Fuleiro","type":"Periférico","price":"15.00","description":"Mouse que quebra com 2 cliques"}

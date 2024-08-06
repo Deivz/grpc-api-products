@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option go_package = "./pb";
+
+service ProductsService {
+  rpc ListProducts(Empty) returns (stream ProductResponse) {}
+  rpc GetProduct(ProductUuidRequest) returns (ProductResponse) {}
+  rpc SaveProducts(ProductRequest) returns (Success) {}
+}
+
+message Empty {}
+
+message Success {
+  string message = 1;
+}
+
+message ProductUuidRequest {
+  string uuid = 1;
+}
+
+message ProductResponse {
+  string uuid = 1;
+  string name = 2;
+  string type = 3;
+  string price = 4;
+  string description = 5;
+}
+
+message ProductRequest {
+  string name = 2;
+  string type = 3;
+  string price = 4;
+  string description = 5;
+}
